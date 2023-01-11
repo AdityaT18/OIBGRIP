@@ -1,0 +1,175 @@
+
+.min-h-screen{
+  min-height: 100vh;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.item-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+  color: aliceblue;
+}
+.justify-center{
+  color: aliceblue;
+  justify-content: center;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.font-bold{
+  font-weight: bolder;
+}
+
+.my-1{
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.px-2{
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.text-blue{
+  color:rgb(33, 33, 199);
+}
+
+.btn{
+
+  padding:4px 10px;
+  border: 2px solid rgb(249, 243, 243);
+  border-radius: 6px;
+  cursor: pointer;
+  color:white;
+  font-size: 14px;
+  background-color: rgb(225, 201, 18);
+}
+
+button:hover {
+  background-color: rgb(68, 32, 198);
+  font-size: 16px;
+}
+
+#Plans {
+  text-align: center;
+  width: 50%;
+  padding:-10px;
+}
+
+#Plans ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#Plans li {
+  margin: 0;
+  padding: 0;
+}
+
+#Plans a {
+  display: block;
+  padding: 0px 0px;
+  text-decoration: none;
+  color: rgb(251, 248, 245);
+  background-color: rgb(10, 6, 1);
+}
+
+#Plans a:hover {
+  background-color: rgb(235, 145, 36);
+}
+
+#Plans .dropdown {
+  position: relative;
+}
+
+#Plans .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 100%;
+  z-index: 1;
+}
+
+#Plans .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.flow{
+  background-color: orange;
+}
+
+.ground{
+  text-align: center;
+}
+
+.poster{
+  size: 10cm; 
+  font:10px;
+}
+
+.sign-up-box {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sign-up-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(89, 82, 70);
+}
+
+.sign-up-box input {
+  width: 60%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid rgb(181, 137, 34);
+  border-radius: 5px;
+}
+
+#sign-up-box button {
+  width: 20%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(185, 135, 49);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sign-up-box button:hover {
+  background-color: rgb(246, 243, 238);
+}
+
+.web{
+  background-color: rgb(6, 1, 6);
+}
+
+.ground{
+  color: aliceblue;
+}
+
+.title{
+  color: rgb(248, 249, 250);
+}
